@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZJCommonView_Example' do
+  pod 'ZJCommonView', :path => '../'
+
+  target 'ZJCommonView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
