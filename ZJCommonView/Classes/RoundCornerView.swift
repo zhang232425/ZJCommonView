@@ -11,13 +11,13 @@ public class RoundCornerView: UIView {
     
     let radius: CGFloat
     
-    var corners: UIRectCorner? {
+    public var corners: UIRectCorner? {
         didSet {
             setNeedsDisplay()
         }
     }
     
-    init(radius: CGFloat) {
+    public init(radius: CGFloat) {
         self.radius = radius
         super.init(frame: .zero)
         backgroundColor = .white
