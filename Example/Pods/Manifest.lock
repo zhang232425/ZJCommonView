@@ -1,0 +1,16 @@
+PODS:
+  - ZJCommonView (0.1.0)
+
+DEPENDENCIES:
+  - ZJCommonView (from `../`)
+
+EXTERNAL SOURCES:
+  ZJCommonView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJCommonView: 6ead032c37e5eaf72516c7192e5cc69923ed0a9c
+
+PODFILE CHECKSUM: 613bd326a47f4a04fb50736b47c80e988fff3245
+
+COCOAPODS: 1.11.2

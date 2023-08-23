@@ -1,0 +1,22 @@
+{
+  "name": "ZJCommonView",
+  "version": "0.1.0",
+  "summary": "A short description of ZJCommonView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhang232425/ZJCommonView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhang232425": "yonathan@asetku.com"
+  },
+  "source": {
+    "git": "https://github.com/zhang232425/ZJCommonView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZJCommonView/Classes/**/*"
+}
