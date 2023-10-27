@@ -16,7 +16,7 @@ open class GIFImageView: UIImageView {
     @IBInspectable public var animatedImageData: Data?
     @IBInspectable public var repeatCount: Int = 0
     
-    var onSetHighlighted: ((Bool) -> ())?
+    public var onSetHighlighted: ((Bool) -> ())?
     
     open override var isHighlighted: Bool {
         didSet {
