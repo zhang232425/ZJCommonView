@@ -16,6 +16,7 @@
 		AA1F4E6DEB81B948D865BCEE1F4710CC /* Pods-ZJCommonView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0B273981F7E788BF6928224B8D3038 /* Pods-ZJCommonView_Example-dummy.m */; };
 		BC8370E044A8AF1E96AAD0749178E37B /* Pods-ZJCommonView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4696C524B240B0292E19B5959D49A5 /* Pods-ZJCommonView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2A5371EF5E530E583B80CE358DEB140 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D6B730CC2AEB60EB0028E044 /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B730CB2AEB60EB0028E044 /* GIFImageView.swift */; };
 		D6BBF35F2A960113007559AE /* RoundCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BBF35E2A960113007559AE /* RoundCornerView.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		ADFC1E7D43643501F2286C38B4DA2904 /* Pods-ZJCommonView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJCommonView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C920D49B2D5966313CF20466D2200421 /* ZJCommonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJCommonView.release.xcconfig; sourceTree = "<group>"; };
 		CBD64F6BB39AB15A2DC6C76F3A18E994 /* ZJCommonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJCommonView.debug.xcconfig; sourceTree = "<group>"; };
+		D6B730CB2AEB60EB0028E044 /* GIFImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GIFImageView.swift; path = ZJCommonView/Classes/GIFImageView.swift; sourceTree = "<group>"; };
 		D6BBF35E2A960113007559AE /* RoundCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundCornerView.swift; path = ZJCommonView/Classes/RoundCornerView.swift; sourceTree = "<group>"; };
 		D72FDD4027A614C7EEAFD8A2EB94E200 /* ZJCommonView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJCommonView-dummy.m"; sourceTree = "<group>"; };
 		D7DA687488E7A3A41F6805EFD686AD1B /* Pods-ZJCommonView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJCommonView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				D6BBF35E2A960113007559AE /* RoundCornerView.swift */,
+				D6B730CB2AEB60EB0028E044 /* GIFImageView.swift */,
 				89D70AE7E7D01010975BA3935825A07F /* Pod */,
 				1C974106283D61A2EA3B2D752C228E9B /* Support Files */,
 			);
@@ -383,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6B730CC2AEB60EB0028E044 /* GIFImageView.swift in Sources */,
 				D6BBF35F2A960113007559AE /* RoundCornerView.swift in Sources */,
 				23C3EA50BB72F3DB73A740A99A447146 /* ZJCommonView-dummy.m in Sources */,
 			);
